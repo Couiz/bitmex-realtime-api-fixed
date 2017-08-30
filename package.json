@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bitmex-realtime-api",
+        "scope": null,
+        "escapedName": "bitmex-realtime-api",
+        "name": "bitmex-realtime-api",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\nodejs\\BitTrader"
+    ]
+  ],
+  "_from": "bitmex-realtime-api@latest",
+  "_id": "bitmex-realtime-api@0.2.1",
+  "_inCache": true,
+  "_location": "/bitmex-realtime-api",
+  "_nodeVersion": "8.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bitmex-realtime-api-0.2.1.tgz_1503429936759_0.9160878623370081"
+  },
+  "_npmUser": {
+    "name": "strml",
+    "email": "samuel.trace.reed@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {
+    "ultron": "1.1.0"
+  },
+  "_requested": {
+    "raw": "bitmex-realtime-api",
+    "scope": null,
+    "escapedName": "bitmex-realtime-api",
+    "name": "bitmex-realtime-api",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitmex-realtime-api/-/bitmex-realtime-api-0.2.1.tgz",
+  "_shasum": "6e5bf4852cd2af5536665a9bf85d5ab319c1d411",
+  "_shrinkwrap": null,
+  "_spec": "bitmex-realtime-api",
+  "_where": "F:\\nodejs\\BitTrader",
+  "author": {
+    "name": "Samuel Reed",
+    "email": "samuel.trace.reed@gmail.com",
+    "url": "http://strml.net/"
+  },
+  "dependencies": {
+    "debug": "^2.6.6",
+    "eventemitter2": "^4.1.0",
+    "lodash": "^4.17.4",
+    "superagent": "^3.5.2",
+    "ws": "^2.3.1"
+  },
+  "description": "A library for interacting with BitMEX's websocket API.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-hLf5A7YFpBoh1GZtxX/ALc7LRybJDrsn0WlHfbwcxngoun+eEbzlWRG6RqBHV8RoQeeekU4uQedqlYLbVZZbbw==",
+    "shasum": "6e5bf4852cd2af5536665a9bf85d5ab319c1d411",
+    "tarball": "https://registry.npmjs.org/bitmex-realtime-api/-/bitmex-realtime-api-0.2.1.tgz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "bitmex",
+    "bitcoin",
+    "websocket",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "strml",
+      "email": "samuel.trace.reed@gmail.com"
+    }
+  ],
+  "name": "bitmex-realtime-api",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "start": "node example",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.1"
+}
